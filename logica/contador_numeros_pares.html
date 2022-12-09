@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+
+<script>
+	function pulaLinha() {
+		document.write("<br>");
+		document.write("<br>");
+	}
+	function mostra(frase){
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var limite = 100
+	var inicio = 0
+
+	while (inicio <= limite){
+		mostra("os numeros pares são " + inicio);
+		inicio = inicio + 2;
+	}
+
+	mostra ("Fim")
+</script>
